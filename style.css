@@ -1,0 +1,55 @@
+body{
+    background-color: #6fc7b8;
+}
+
+h1
+{
+
+    color:rgb(124, 199, 44);
+    background-color:rgb(44, 234, 234);
+
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+canvas
+{
+border:5px solid rgb(132, 205, 175);
+border-radius:20px;
+animation-name: example;
+animation-duration:4s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+
+}
+@keyframes example {
+
+    from{box-shadow: 1px 1px 38px rgb(143, 199, 192);}
+    to{box-shadow: 1px 1px 38px rgb(170, 215, 121);}
+
+}
+
+
+p{
+
+   padding-top:10px;
+    font-size:25px;
+
+}
+
+body
+{
+    background-color: #68815f;
+}
+
+h1
+{
+
+    color:rgb(38, 0, 225);
+    background-color:rgb(186, 221, 111);
+
+
+}
